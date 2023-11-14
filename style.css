@@ -1,0 +1,21 @@
+header{
+    font-size: 80px;
+    padding: 25px;
+    text-align: center;
+    background-color: aqua;
+    font-family: cursive;
+    color: blue;
+
+}
+nav,a{
+    padding: 10px;
+    padding-left : 2px;
+    padding-right: 40px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+a:hover{
+    border: 2px solid white;
+}
