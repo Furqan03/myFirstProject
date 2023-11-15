@@ -1,21 +1,36 @@
-header{
-    font-size: 80px;
-    padding: 25px;
-    text-align: center;
-    background-color: aqua;
-    font-family: cursive;
-    color: blue;
 
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
+
 nav,a{
     padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
     padding-left : 2px;
-    padding-right: 40px;
     text-decoration: none;
-    background-color: black;
-    color: white;
+    color: rgb(95, 85, 85);
     font-weight: 900;
+    font-size: 23px;
 }
 a:hover{
-    border: 2px solid white;
+    border-bottom: 2px solid black;
 }
+header {
+    font-family: 'Tangerine', serif;
+    font-size: 130px;
+    text-align: center;
+    text-shadow: 4px 6px 10px;
+
+  }
+  .para{
+    margin: 50px;
+    padding: 10px;
+    border: 7px solid grey;
+    box-shadow: -27px -23px grey;
+    border-radius: 7px;
+  }
+  
