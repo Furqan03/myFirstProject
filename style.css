@@ -17,7 +17,7 @@ nav,a{
     font-size: 23px;
 }
 a:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(95, 85, 85);
 }
 header {
     font-family: 'Tangerine', serif;
@@ -32,5 +32,10 @@ header {
     border: 7px solid grey;
     box-shadow: -27px -23px grey;
     border-radius: 7px;
+    width: 500px;
   }
-  
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
