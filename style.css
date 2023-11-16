@@ -3,9 +3,11 @@ nav{
     position: sticky;
     top: 0;
     background-color: white;
+    text-align: center;
+    
 }
 
-nav,a{
+nav a{
     padding: 10px;
     text-align: center;
     margin-top: 0px;
@@ -15,9 +17,11 @@ nav,a{
     color: rgb(95, 85, 85);
     font-weight: 900;
     font-size: 23px;
+    transition: font-size 0.2s;
 }
 a:hover{
     border-bottom: 2px solid rgb(95, 85, 85);
+    font-size: 27px;
 }
 header {
     font-family: 'Tangerine', serif;
@@ -28,14 +32,20 @@ header {
   }
   .para{
     margin: 50px;
+    background-color: white;
     padding: 10px;
     border: 7px solid grey;
     box-shadow: -27px -23px grey;
     border-radius: 7px;
     width: 500px;
+    transition: all .3s .5s;
   }
   .main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .para:hover{
+    transform: scale(1.4);
   }
