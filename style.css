@@ -1,3 +1,9 @@
+*{
+  border: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
 
 nav{
     position: sticky;
@@ -41,9 +47,11 @@ header {
     transition: all .3s .5s;
   }
   .main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px;
+    justify-items: center;
   }
 
   .para:hover{
