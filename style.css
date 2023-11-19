@@ -98,7 +98,7 @@ header {
   }
   @media(max-width:600px){
     .para{
-      flex-direction: column;
+      flex-direction: column-reverse;
       margin-left: 0px;;
       margin-right: 0px;
       padding-left: 0px;
@@ -110,7 +110,6 @@ header {
     .paraimg img{ 
       height: 100%;
       width: 100%;
-      transform: scale(1);
     }
   }
    @media(min-width: 850px) {
