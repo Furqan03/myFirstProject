@@ -78,8 +78,18 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-@media(min-width:900px){
+@media(min-width:1000px){
     body{
         padding: 2.5% 30%;
+    }
+}
+@media(max-width:600px){
+    .profile{
+        flex-direction: column-reverse;
+    }
+    .desc{
+        border: none;
+        text-align: center;
+        padding-top: 0px;
     }
 }
